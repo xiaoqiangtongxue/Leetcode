@@ -7,7 +7,7 @@ import java.util.Collections;
 public class Solution {
     static  int res = Integer.MIN_VALUE;
     public static void main(String[] args) {
-      
+
     }
 
     public static int maxPathSum(TreeNode root) {
