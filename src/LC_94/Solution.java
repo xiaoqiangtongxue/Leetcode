@@ -15,7 +15,6 @@ public class Solution {
 
     }
 
-
     public static List<Integer> inorderTraversal(TreeNode root) {
         Deque<TreeNode> stack  =  new ArrayDeque<>();
         List<Integer> res = new ArrayList<>();

@@ -26,5 +26,13 @@ public class ListNode {
         }
         return head;
     }
+    public static void show(TreeNode root){
+        if(root == null){
+            return;
+        }
+        System.out.println(root.val);
+        show(root.left);
+        show(root.right);
+    }
 
 }
