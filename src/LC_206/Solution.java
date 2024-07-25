@@ -7,9 +7,10 @@ public class Solution {
         if(head == null || head.next == null){
             return head;
         }
-        ListNode node = reverseList(head.next);
-        head.next.next = null;
+
+        ListNode Head = reverseList(head.next);
+        head.next.next = head;
         head.next = null;
-        return node;
+        return Head;
     }
 }
